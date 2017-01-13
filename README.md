@@ -8,6 +8,7 @@ My OCaml solutions to [these challenges](https://github.com/YearOfProgramming/20
 * Use parens to disambiguate when using `as` in `match` clauses.
 * Be careful when partially applying infix operators: `((>) 0)` means "less than zero?". Compare to `(>0)` in Haskell.
 * OCaml has some weird math operators, like `(~-)` for negation and `( * )` for multiplication.
+* The form `if A then B` can be used in iterative code; `B` must evaluate to `()`.
 
 ## Build instructions
 
