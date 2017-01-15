@@ -1,5 +1,6 @@
 open Core.Std
 
+(* We assume we are dealing with a full binary tree. *)
 module type Tree_type = sig
   type t = Leaf of int | Node of int * t * t
   val sexp_of_t : t -> Sexplib.Sexp.t
