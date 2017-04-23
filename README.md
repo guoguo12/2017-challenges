@@ -16,4 +16,4 @@ My OCaml solutions to [these challenges](https://github.com/YearOfProgramming/20
 
 You will need [Core](https://github.com/janestreet/core) and any plugins mentioned above.
 
-Run `make chX; ch0/main.native` to build and run the code for Challenge 0.
+Run `make chXX; chXX/main.native` to build and run the code for Challenge XX.
