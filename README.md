@@ -9,6 +9,8 @@ My OCaml solutions to [these challenges](https://github.com/YearOfProgramming/20
 * Be careful when partially applying infix operators: `((>) 0)` means "less than zero?". Compare to `(>0)` in Haskell.
 * OCaml has some weird math operators, like `(~-)` for negation and `( * )` for multiplication.
 * The form `if A then B` can be used in iterative code; `B` must evaluate to `()`.
+* Use parens to disambiguate when nesting `match` expressions.
+* A for-loop evaluates to `()`, meaning it may require a semicolon after the `end`.
 
 ## Build instructions
 
