@@ -1,4 +1,6 @@
-My OCaml solutions to [these challenges](https://github.com/YearOfProgramming/2017Challenges).
+My solutions to coding puzzles drawn from [Year of Programming](https://github.com/YearOfProgramming/2017Challenges) and [r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/), written in OCaml using [Core](https://github.com/janestreet/core).
+
+See subdirectories for build instructions.
 
 ## Things learned
 * How to use `Hashtbl`.
@@ -11,9 +13,3 @@ My OCaml solutions to [these challenges](https://github.com/YearOfProgramming/20
 * The form `if A then B` can be used in iterative code; `B` must evaluate to `()`.
 * Use parens to disambiguate when nesting `match` expressions.
 * A for-loop evaluates to `()`, meaning it may require a semicolon after the `end`.
-
-## Build instructions
-
-You will need [Core](https://github.com/janestreet/core) and any plugins mentioned above.
-
-Run `make chXX; chXX/main.native` to build and run the code for Challenge XX.

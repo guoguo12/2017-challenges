@@ -1,7 +1,4 @@
-default:
-	for d in ch*; do make $$d; done
-
-ch%: FORCE
+e% i% h%: FORCE
 	cd $@ && ocamlbuild -r -use-ocamlfind -pkg 'core' -tag "thread,package(ppx_sexp_conv)" main.native *.ml
 
 clean:
