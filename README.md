@@ -13,3 +13,4 @@ See subdirectories for build instructions.
 * The form `if A then B` can be used in iterative code; `B` must evaluate to `()`.
 * Use parens to disambiguate when nesting `match` expressions.
 * A for-loop evaluates to `()`, meaning it may require a semicolon after the `end`.
+* Use `with type` to expose types defined (concretely) in modules to outside code (e.g., see [here](https://github.com/guoguo12/ocaml-practice/blob/master/dailyprogrammer/e314/main.ml#L5)).
